@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 import logo from '../../../assets/img/logo.svg'
 const Navbar = () => {
     const navItem = <>
-        <li><a>Submenu 1</a></li>
-        <li><a>Submenu 2</a></li>
+        <li><Link to='/'>Home</Link></li>
+        <li><Link to='/login'>Login</Link></li>
     </>
     return (
         <div className="container mx-auto">
